@@ -60,6 +60,7 @@ If you are doing in batches, as recommended, no special actions are required. Th
 Messages are sent in batches to avoid too many requests and rate limit errors
 
 (1): sometimes CharGPT gives some additional events, not present in the list, and it is hard to make him only use the keys provided. However, usually it sticks to the rules
+
 Note: if you want more keys(columns), you should change the `KEYS` and change the prompt(`SYSTEM_PROMPT`)
 
 2. `get_response` function
