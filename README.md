@@ -39,10 +39,15 @@ If you are doing in batches, as recommended, no special actions are required. Th
 ## How it works
 ### Modules
 `json` - to read json file of messages
+
 `os` and `dotenv` - to get the API key from `.env` file
+
 `openai` - to use ChatGPT
+
 `pandas` - to store the results in a csv file
+
 `re` - to process some of the ChatGPT's results
+
 `time` - to wait when rate limit is exceeded
 
 ### Algorithm
